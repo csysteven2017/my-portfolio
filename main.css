@@ -1,0 +1,77 @@
+body{
+    background-image: url(Margo.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: fixed;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    background-color: #080808;
+}
+#header ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 25px;
+}
+#header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+#header a:hover{
+    color: #8C8C8C;
+}
+#about{
+    overflow: hidden;
+    margin-top: 15%;
+}
+#about strong{
+    margin: 30px;
+    float: left;
+    width: 40%;
+    font-size: 70px;
+}
+#about p{
+    margin: 30px;
+    float: right;
+    width: 50%;
+    font-size: 25px;
+}
+#project h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+}
+.projects-list{
+    margin-top: 50px;
+    margin: 30px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.projects-list div{
+    text-align: center;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(bottom, #787b7d, #e4dede);
+    border-radius: 10px;
+}
+.projects-list img{
+    bottom: 0;
+    width: 20px;
+}
+#contact{
+    margin: 30px;
+}
+#contact h1{
+    margin-top: 200px;
+    font-size: 60px;
+}
+#contact img{
+    width: 40px;
+}
+#contact p{
+    font-size: 20px;
+}
